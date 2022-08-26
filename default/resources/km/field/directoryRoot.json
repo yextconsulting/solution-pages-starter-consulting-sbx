@@ -1,7 +1,7 @@
 {
-  "$id": "c_faqs",
+  "$id": "c_directoryRoot",
   "$schema": "https://schema.yext.com/config/km/field/v1",
-  "displayName": "FAQs",
+  "displayName": "Directory Root",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",
   "type": {
@@ -9,9 +9,6 @@
       "typeId": "entityReference",
       "type": {
         "entityReferenceType": {
-          "supportedEntityTypeIds": [
-            "faq"
-          ],
           "type": "ONE_WAY"
         }
       }
