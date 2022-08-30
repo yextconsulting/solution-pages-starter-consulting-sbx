@@ -7,7 +7,9 @@
     "c_meta",
     "c_team",
     "c_hero",
-    "c_faqs"
+    "c_faqs",
+    "c_featuredProducts",
+    "c_promo"
   ],
   "required": []
 }

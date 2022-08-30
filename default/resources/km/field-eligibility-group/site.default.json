@@ -4,9 +4,15 @@
   "name": "Site-default",
   "entityType": "ce_site",
   "fields": [
-    "c_meta",
+    "c_copyrightMessage",
+    "c_facebook",
+    "c_footerLinks",
     "c_header",
-    "c_logo"
+    "c_instagram",
+    "c_linkedIn",
+    "c_twitter",
+    "c_youtube",
+    "logo"
   ],
   "required": []
 }
