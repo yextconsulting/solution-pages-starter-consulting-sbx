@@ -106,6 +106,29 @@
         ]
       }
     },
+    "photoGallery": [
+      {
+        "image": {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p-sandbox/9sn9iH-i10Oill3Sj2t29BQcUyJmCeVyWT8L9VwNyrs/600x450.png",
+          "width": 600
+        }
+      },
+      {
+        "image": {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p-sandbox/9sn9iH-i10Oill3Sj2t29BQcUyJmCeVyWT8L9VwNyrs/600x450.png",
+          "width": 600
+        }
+      },
+      {
+        "image": {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p-sandbox/9sn9iH-i10Oill3Sj2t29BQcUyJmCeVyWT8L9VwNyrs/600x450.png",
+          "width": 600
+        }
+      }
+    ],
     "logo": {
       "image": {
         "height": 100,
