@@ -1,13 +1,25 @@
 {
-  "$id": "c_hero",
+  "$id": "c_bannerSection",
   "$schema": "https://schema.yext.com/config/km/field-type/v1",
-  "displayName": "Hero",
+  "description": "CFT for starter Banner section",
+  "displayName": "Banner Section",
   "type": {
     "structType": {
       "property": [
         {
-          "name": "background",
-          "displayName": "Background",
+          "name": "text",
+          "displayName": "Text",
+          "isRequired": false,
+          "typeId": "string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        },
+        {
+          "name": "image",
+          "displayName": "Image",
           "isRequired": false,
           "typeId": "image",
           "type": {
@@ -21,18 +33,6 @@
               "noAllowedAspectRatios": true
             }
           }
-        },
-        {
-          "name": "cta1",
-          "displayName": "CTA 1",
-          "isRequired": false,
-          "typeId": "cta"
-        },
-        {
-          "name": "cta2",
-          "displayName": "CTA 2",
-          "isRequired": false,
-          "typeId": "cta"
         }
       ]
     }

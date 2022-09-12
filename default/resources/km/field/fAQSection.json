@@ -1,8 +1,8 @@
 {
-    "$id": "c_teamSection",
+    "$id": "c_fAQSection",
     "$schema": "https://schema.yext.com/config/km/field/v1",
-    "displayName": "Team Section",
+    "displayName": "FAQ Section",
     "group": "NONE",
     "localization": "PRIMARY_ONLY",
-    "typeId": "c_teamSection"
+    "typeId": "c_fAQSection"
   }
