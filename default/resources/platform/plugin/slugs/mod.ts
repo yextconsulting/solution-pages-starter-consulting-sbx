@@ -1,4 +1,4 @@
-import { createSlugManager } from "https://raw.githubusercontent.com/yext/pages/b360e5b215e85612e50b247514439ad8c227b081/packages/plugins/index.ts";
+import { createSlugManager } from "https://deno.land/x/yextpages@plugins@1.0.0-beta.1/mod.ts";
 
 declare const API_KEY: string;
 
