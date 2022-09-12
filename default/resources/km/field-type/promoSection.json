@@ -1,7 +1,8 @@
 {
-  "$id": "c_promo",
+  "$id": "c_promoSection",
   "$schema": "https://schema.yext.com/config/km/field-type/v1",
-  "displayName": "Promo",
+  "description": "CFT for starter Promo section",
+  "displayName": "Promo Section",
   "type": {
     "structType": {
       "property": [
@@ -45,7 +46,7 @@
           }
         },
         {
-          "name": "cta",
+          "name": "cTA",
           "displayName": "CTA",
           "isRequired": false,
           "typeId": "cta"

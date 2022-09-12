@@ -1,7 +1,7 @@
 {
-  "$id": "c_featuredProducts",
+  "$id": "c_featuredProductsSection",
   "$schema": "https://schema.yext.com/config/km/field-type/v1",
-  "displayName": "Featured Products",
+  "displayName": "Featured Products Section",
   "type": {
     "structType": {
       "property": [
