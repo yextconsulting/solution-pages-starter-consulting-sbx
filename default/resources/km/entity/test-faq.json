@@ -1,0 +1,12 @@
+{
+  "$id": "test-faq",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "answer": "They're built with React!",
+    "question": "What JavaScript framework are Yext pages built with?"
+  },
+  "entityType": "faq",
+  "folder": "testEntities",
+  "labels": []
+}

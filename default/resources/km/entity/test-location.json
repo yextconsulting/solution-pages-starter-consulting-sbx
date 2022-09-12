@@ -12,13 +12,41 @@
       "region": "NY"
     },
     "addressHidden": false,
-    "c_featuredProducts": {
+    "c_aboutSection": {
+      "cta": {
+        "label": "Learn More",
+        "linkType": "URL",
+        "link": "https://www.yext.com"
+      },
+      "description": "[[description]]",
+      "image": {
+        "height": 667,
+        "url": "https://a.mktgcdn.com/p-sandbox/OxpFIrEccA3zsdZ6LlKVxdQD_cGOME_8mNFU0IdByd4/1000x667.png",
+        "width": 1000
+      },
+      "title": "About Section"
+    },
+    "c_bannerSection": {
+      "image": {
+        "height": 16,
+        "url": "https://a.mktgcdn.com/p-sandbox/SfrRxRW8tFhve9rZ1LWi4n831jY3uhAeNBkElwkeNck/16x16.png",
+        "width": 16
+      },
+      "text": "This location is closed outside of business hours"
+    },
+    "c_faqSection": {
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        "test-faq"
+      ]
+    },
+    "c_featuredProductsSection": {
       "products": [
         "test-product"
       ],
       "title": "Featured Products at [[name]]"
     },
-    "c_hero": {
+    "c_heroSection": {
       "background": {
         "height": 667,
         "url": "https://a.mktgcdn.com/p-sandbox/OxpFIrEccA3zsdZ6LlKVxdQD_cGOME_8mNFU0IdByd4/1000x667.png",
@@ -27,7 +55,7 @@
       "cta1": {
         "label": "Learn More",
         "link": "https://www.yext.com",
-        "linkType": "OTHER"
+        "linkType": "URL"
       },
       "cta2": {
         "label": "Call Now",
@@ -35,7 +63,7 @@
         "linkType": "PHONE"
       }
     },
-    "c_promo": {
+    "c_promoSection": {
       "appStoreUrl": "https://www.yext.com",
       "cta": {
         "label": "Learn More",
@@ -51,9 +79,12 @@
       },
       "title": "Featured Promotion"
     },
-    "c_team": [
-      "test-professional"
-    ],
+    "c_teamSection": {
+      "title": "Meet Our Team",
+      "team": [
+        "test-professional"
+      ]
+    },
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus placerat justo a viverra. Quisque ut congue tellus, vitae fermentum velit. Suspendisse sed gravida libero. Etiam pulvinar tincidunt augue vitae fermentum. Maecenas tortor nunc, ullamcorper eu tortor sed, vestibulum suscipit libero. \\nPraesent sit amet pulvinar massa. Proin mattis tellus tristique neque ullamcorper, vel vestibulum lorem dapibus. Vivamus et magna in justo posuere imperdiet sit amet amour tellus.",
     "emails": [
       "email@gmail.com"
@@ -106,29 +137,26 @@
         ]
       }
     },
-    "photoGallery": [
-      {
-        "image": {
+    "c_gallerySection": {
+      "title": "Image Gallery",
+      "images": [
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p-sandbox/9sn9iH-i10Oill3Sj2t29BQcUyJmCeVyWT8L9VwNyrs/600x450.png",
+          "width": 600
+        },
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p-sandbox/9sn9iH-i10Oill3Sj2t29BQcUyJmCeVyWT8L9VwNyrs/600x450.png",
+          "width": 600
+        },
+        {
           "height": 450,
           "url": "https://a.mktgcdn.com/p-sandbox/9sn9iH-i10Oill3Sj2t29BQcUyJmCeVyWT8L9VwNyrs/600x450.png",
           "width": 600
         }
-      },
-      {
-        "image": {
-          "height": 450,
-          "url": "https://a.mktgcdn.com/p-sandbox/9sn9iH-i10Oill3Sj2t29BQcUyJmCeVyWT8L9VwNyrs/600x450.png",
-          "width": 600
-        }
-      },
-      {
-        "image": {
-          "height": 450,
-          "url": "https://a.mktgcdn.com/p-sandbox/9sn9iH-i10Oill3Sj2t29BQcUyJmCeVyWT8L9VwNyrs/600x450.png",
-          "width": 600
-        }
-      }
-    ],
+      ]
+    },
     "logo": {
       "image": {
         "height": 100,
