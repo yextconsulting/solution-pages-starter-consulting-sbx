@@ -4,12 +4,15 @@
   "name": "Location-default",
   "entityType": "location",
   "fields": [
-    "c_meta",
-    "c_team",
-    "c_hero",
-    "c_faqs",
-    "c_featuredProducts",
-    "c_promo"
+    "c_aboutSection",
+    "c_bannerSection",
+    "c_faqSection",
+    "c_gallerySection",
+    "c_heroSection",
+    "c_promoSection",
+    "c_teamSection",
+    "c_featuredProductsSection",
+    "c_meta"
   ],
   "required": []
 }
