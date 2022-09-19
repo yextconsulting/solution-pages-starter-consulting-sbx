@@ -12,7 +12,8 @@
     "c_promoSection",
     "c_teamSection",
     "c_featuredProductsSection",
-    "c_meta"
+    "c_meta",
+    "c_brand"
   ],
   "required": []
 }
