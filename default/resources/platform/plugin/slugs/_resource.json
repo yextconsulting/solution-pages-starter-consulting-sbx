@@ -1,5 +1,5 @@
 {
-	"$id": "Slug Manager",
+	"$id": "Slug-Manager",
 	"$schema": "https://schema.yext.com/config/platform/plugin/v1",
 	"globals": {
 		"API_KEY": "${{Knowledge-API-Key-For-Slug-Manager}}"
