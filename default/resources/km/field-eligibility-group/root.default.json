@@ -1,7 +1,7 @@
 {
-  "$id": "ce_root.default",
+  "$id": "proserveStarer_ce_root",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Root-default",
+  "name": "Proserve Starter Root",
   "entityType": "ce_root",
   "fields": [
     "c_meta"

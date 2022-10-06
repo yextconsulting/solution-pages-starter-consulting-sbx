@@ -1,7 +1,7 @@
 {
-  "$id": "location.default",
+  "$id": "proserveStarter_location",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Location-default",
+  "name": "Proserve Starter Location",
   "entityType": "location",
   "fields": [
     "c_aboutSection",
