@@ -70,7 +70,9 @@ By applying this template, you are creating a Connector, as well as all of the r
 
 ## Applying Templates for Slugs using the terminal
 ### An example workflow to set up templates for slugs webhook:
-1. in the developer console, make an app with read/write knowledge api access, which creates an api key
+1. in the Knowledge Graph:
+	- in developer console, make an app with read/write knowledge enities access, which creates an api key
+	- in Account Features enable “Preview Feature: Function Hooks
 2. customize the `mod.ts` (the template) with the slug format you want at https://github.com/yextconsulting/solution-pages-starter-consulting/tree/main/default/resources/platform/plugin/slugs
 3. at the root of the repo, apply the function using the command `yext resources apply default/resources/platform/plugin/slugs`, it will ask these questions:
 - `Warning: Are you sure you want to overwrite configuration resources for the current configuration?` yes
