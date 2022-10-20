@@ -16,7 +16,11 @@ https://hitchhikers.yext.com/modules/sol202-introduction-to-the-admin-console/03
 ## Applying Templates
 The default/resources folder contains the CaC files of preexisting configurations that can be "loaded" into any Yext account.
 
-The Config as Code Workshop Exercise has very detailed steps to the process of applying templates to new accounts, including how to install Yext CLI, create APP and getting API Keys, add Funciton Hooks feature (this will 'add invoke a function' to Webhooks), apply templates for Slugs and Directory Manager using the admin console.
+You can apply a folder of CaC files, as well as a single file, depending on the path you specify. However, you may run into dependency errors if you choose to apply CaC folders or files one at a time. For example, if you apply the km/entity folder before km/field, you might get an error saying some Custom Fields do not exist in your account. By applying the root folder, Yext CLI should handle the dependencies.
+
+The Config as Code Workshop Exercise has very detailed and important steps to the process of applying templates to new accounts, including how to install Yext CLI, create APP and getting API Keys, add Funciton Hooks feature (this will 'add invoke a function' to Webhooks).
+
+The exercise shows you how to apply templates using the admin console, but you can also use commands in the terminal
 https://docs.google.com/document/d/1JYd6HTFK8Fw0n7DB3QAOM6eh9bKnrjHnvVOBueqifbc/edit#heading=h.c30digsgl4f5
 
 ## What Templates are here?
@@ -27,7 +31,7 @@ This folder contains templates for creating various test entities like entity ty
 Example: `yext resources apply solution-pages-starter-consulting/default/resources/km/entity` or `yext resources apply solution-pages-starter-consulting/default/resources/km/entity/search-page.json`
 
 ### **km/folder** 
-By applying this folder, you are creating the Test Entities folder in the account
+By applying this folder, you are creating a "Test Entities" folder in the account. 
 
 ### **km/entity-type**
 This folder contains the CaC files for the custom entity types for City, Region, Root, Search Page, Site. By applying templates in this folder you are creating these custom entity types.
