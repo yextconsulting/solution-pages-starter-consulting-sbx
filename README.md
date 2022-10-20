@@ -13,6 +13,12 @@ https://hitchhikers.yext.com/modules/sol202-introduction-to-the-admin-console/03
 `yext init -u sandbox [account id]` - this lets you connect to the sandbox accounts
 `yext resources apply [path to template]` - Applies the template at the folder path, example: `yext resources apply .` for the template in the current directory
 
+## Applying Templates
+The default/resources folder contains the CaC files of preexisting configurations that can be "loaded" into any Yext account.
+
+The Config as Code Workshop Exercise has very detailed steps to the process of applying templates to new accounts, including how to install Yext CLI, create APP and getting API Keys, add Funciton Hooks feature (this will 'add invoke a function' to Webhooks), apply templates for Slugs and Directory Manager using the admin console.
+https://docs.google.com/document/d/1JYd6HTFK8Fw0n7DB3QAOM6eh9bKnrjHnvVOBueqifbc/edit#heading=h.c30digsgl4f5
+
 ## What Templates are here?
 
 ### **km/entity**
@@ -54,12 +60,6 @@ For example, we don't want the localeCode to show up for English sites since thi
 ### **km/connector/updateAllSlugs.json:**
 
 By applying this template, you are creating a Connector, as well as all of the required mappings, in the knowledge graph. This connector can run the Slug Manager function on all entities, which updates the `slug` field on all entities' language profiles. By going to the Connector page in KG, you can turn on or off the connector and specify how often it should run.
-
-## Applying Templates for Entities
-This folder contains the CaC files of preexisting configurations that can be "loaded" into any Yext account. When you apply the files, you send the configuration to the Yext account you specify.
-
-The Config as Code Workshop Exercise has very detailed steps to the process of applying templates to new accounts, like installing Yext CLI, creating APP and getting API Keys, adding Funciton Hooks feature (this will 'add invoke a function' to Webhooks), applying templates for Slugs and Directory Manager.
-https://docs.google.com/document/d/1JYd6HTFK8Fw0n7DB3QAOM6eh9bKnrjHnvVOBueqifbc/edit#heading=h.c30digsgl4f5
 
 ## Applying Templates for Slugs using the terminal
 ### An example workflow to set up templates for slugs webhook:
