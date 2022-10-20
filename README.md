@@ -23,6 +23,9 @@ The Config as Code Workshop Exercise has very detailed and important steps to th
 The exercise shows you how to apply templates using the admin console, but you can also use commands in the terminal
 https://docs.google.com/document/d/1JYd6HTFK8Fw0n7DB3QAOM6eh9bKnrjHnvVOBueqifbc/edit#heading=h.c30digsgl4f5
 
+## Admin Console
+
+You can view the existing configuration on your account by going to the Admin Console on Knowledge Graph.      
 ## What Templates are here?
 
 ### **km/entity**
