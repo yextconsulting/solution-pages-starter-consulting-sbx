@@ -65,14 +65,5 @@
       "header": "isAlternateProfile",
       "subfieldPath": []
     }
-  ],
-  "scheduleConfig": {
-    "customSchedule": {
-      "timeZone": "America/New_York",
-      "startDate": "2022-10-20",
-      "startTime": "09:30",
-      "frequencyType": "DAILY"
-    },
-    "runMode": "DEFAULT"
-  }
+  ]
 }
