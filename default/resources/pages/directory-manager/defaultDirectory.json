@@ -10,9 +10,7 @@
   "root": {
     "entityType": "ce_root",
     "slug": "index.html",
-    "fieldsToCopyFromBase": [
-      "c_brand"
-    ]
+    "entityTemplateId": "directoryRoot"
   },
   "localization": {
     "locales": ["en"]
@@ -22,17 +20,13 @@
       "entityType": "ce_region",
       "field": "address.region",
       "slug": "/{{address.region}}",
-      "fieldsToCopyFromBase": [
-        "c_brand"
-      ]
+      "entityTemplateId": "directoryRegion"
     },
     {
       "entityType": "ce_city",
       "field": "address.city",
       "slug": "/{{address.region}}/{{address.city}}",
-      "fieldsToCopyFromBase": [
-        "c_brand"
-      ]
+      "entityTemplateId": "directoryCity"
     }
   ]
 }

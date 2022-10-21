@@ -6,14 +6,15 @@
   "fields": [
     "c_aboutSection",
     "c_bannerSection",
+    "c_eventsSection",
     "c_faqSection",
     "c_gallerySection",
     "c_heroSection",
+    "c_insightsSection",
     "c_promoSection",
     "c_teamSection",
     "c_featuredProductsSection",
-    "c_meta",
-    "c_brand"
+    "c_meta"
   ],
   "required": []
 }
