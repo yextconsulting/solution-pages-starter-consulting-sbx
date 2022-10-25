@@ -1,6 +1,6 @@
 {
   "$id": "starter-repo",
   "$schema": "https://schema.yext.com/config/pages/repository/v1",
-  "templateRepo": "github.com/big-ol-sandbox/site-starter-react-consulting",
-	"repoUrl": "${{repoUrl}}"
+  "templateRepo": "github.com/yext-pages/bhaines-site-starter-react-basic",
+  "repoUrl": "${{repoUrl}}"
 }
