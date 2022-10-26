@@ -15,6 +15,9 @@
       "c_brand"
     ]
   },
+  "localization": {
+    "locales": ["en"]
+  },
   "levels": [
     {
       "entityType": "ce_region",
