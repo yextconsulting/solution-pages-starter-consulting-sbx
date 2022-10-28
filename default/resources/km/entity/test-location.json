@@ -63,6 +63,13 @@
         "linkType": "PHONE"
       }
     },
+    "c_nearbySection": {
+      "cta": {
+        "label": "Find another Location"
+      },
+      "linkToLocator": true,
+      "title": "Find Nearby Locations"
+    },
     "c_promoSection": {
       "appStoreUrl": "https://www.yext.com",
       "cta": {
