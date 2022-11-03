@@ -68,6 +68,8 @@
     },
     "c_instagram": "https://www.instagram.com/",
     "c_linkedIn": "https://www.linkedin.com/",
+    "c_nearbySectionAPIKey": "${{nearbyAPIKey}}",
+    "c_searchExperienceAPIKey": "${{searchAPIKey}}",
     "c_twitter": "https://www.twitter.com/",
     "c_youtube": "https://www.youtube.com/",
     "logo": {
