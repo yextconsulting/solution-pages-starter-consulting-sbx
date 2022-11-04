@@ -1,4 +1,4 @@
-# solution-pages-starter-consulting
+# solution-pages-starter-consulting for Yext Sandbox Accounts
 Solution Templates are pre-built configurations created by Yext that can be installed into an account. 
 
 They can add all sorts of things - from custom entity types in the Knowledge Graph to Search Experiences and much more. You can think about this as another way to update your account, just like you do via the UI or the API — this time, it’s just via a set of files.
@@ -84,3 +84,10 @@ By applying this template, you are creating a Connector, as well as all of the r
 1. apply this file to create a slug connector: https://github.com/yextconsulting/solution-pages-starter-consulting/blob/main/default/resources/km/connector/updateAllSlugs.json by `yext resources apply default/resources/km/connector`
 2. in the Connectors page on knowledge graph, click into the connector created in step 1 and run the connector to populate the slugs for all your existing entities
 - example: https://sandbox.yext.com/s/3160439/addData/connectors/3548
+
+## Github Work Flows
+### Sync Upstream
+source: https://github.com/dabreadman/sync-upstream-repo
+This GitHub workflow syncs the Prod solution-pages-starter-consulting repo (https://github.com/yextconsulting/solution-pages-starter-consulting.git) with this sbx repo since they should almost be identical 
+
+
