@@ -9,4 +9,5 @@ export const {webhook, connector} = createSlugManager({
 		"en": "[[address.region]]/[[address.city]]/[[address.line1]]"
 	},
 	entityTypes: ["location"],
+	env: "sandbox",
 });

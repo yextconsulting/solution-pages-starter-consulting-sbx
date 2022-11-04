@@ -1,4 +1,4 @@
-# solution-pages-starter-consulting
+# solution-pages-starter-consulting for Yext Sandbox Accounts
 Solution Templates are pre-built configurations created by Yext that can be installed into an account. 
 
 They can add all sorts of things - from custom entity types in the Knowledge Graph to Search Experiences and much more. You can think about this as another way to update your account, just like you do via the UI or the API — this time, it’s just via a set of files.
